@@ -105,7 +105,7 @@ class Main extends React.Component {
             to track your favorite language to manipulate DOMs in.
           </p>
           <p>
-            Here is a simple <a href="https://github.com/jebeni777/map-project">map project </a>that will give you the longitude and the latitude
+            Here is a simple <a href="https://github.com/jebeni777/map-project">Map Project </a>that will give you the longitude and the latitude
             of any address you submit. It also shows you a small map of the location.
           </p>
           {close}
