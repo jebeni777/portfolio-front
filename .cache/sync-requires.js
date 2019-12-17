@@ -5,9 +5,9 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/unloop/myPortfolioSite/gatsby-starter-dimension/.cache/dev-404-page.js"))),
-  "component---src-pages-404-js": hot(preferDefault(require("/Users/unloop/myPortfolioSite/gatsby-starter-dimension/src/pages/404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("/Users/unloop/myPortfolioSite/gatsby-starter-dimension/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/unloop/myPortfolioSite/gatsby-starter-dimension/src/pages/page-2.js")))
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/unloop/portfolio-front/.cache/dev-404-page.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("/Users/unloop/portfolio-front/src/pages/404.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("/Users/unloop/portfolio-front/src/pages/index.js"))),
+  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/unloop/portfolio-front/src/pages/page-2.js")))
 }
 
