@@ -71,17 +71,16 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
           <p>
-          Hi, my name is Becky and I love to write code. I specialize in Javascript, React,
+            Hi, my name is Becky and I love to write code. I specialize in Javascript, React,
             React Hooks and several others. I really enjoy backend but work on full stack mostly.
             I am open to new ideas and am always up to a challenge. By the way, check out my awesome work.
-          </p>          
+          </p>
           {close}
           <span className="image main">
             <img src={jquery} alt="" />
@@ -91,22 +90,16 @@ class Main extends React.Component {
 
         <article
           id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
           <p>
-            I made an <a href="https://github.com/jebeni777/RSVP">RSVP app</a> to keep track of guest attendence to any specific event.
+            I engineered a React.js progressive web application called <a href="https://master.djb4a0m29g84r.amplifyapp.com/">Comfort Foods</a> to provide actionable dietary information for seniors. This was done by engaging in user research to identify the best experience for the baby boomer generation. The application delivers a creative dietary plan/recommendation list for adding new ingredients to your staple dishes, based on your health needs. This was accomplished with persisted application content in a GraphQL-like database, using Sanity.io. Then deployed the application to the internet using AWS Cloudfront and Amplify.
           </p>
           <p>
-            I also participated in the production of a <a href="https://github.com/jebeni777/PollProject">Poll Project </a>
-            to track your favorite language to manipulate DOMs in.
-          </p>
-          <p>
-            Here is a simple <a href="https://github.com/jebeni777/map-project">Map Project </a>that will give you the longitude and the latitude
-            of any address you submit. It also shows you a small map of the location.
+            Here is an ecommerce site for created for<a href="https://woollymammothshoes.com/">Wooly Mammoth Shoes</a>.
           </p>
           {close}
           <span>
@@ -119,9 +112,8 @@ class Main extends React.Component {
 
         <article
           id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
@@ -137,9 +129,8 @@ class Main extends React.Component {
 
         <article
           id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
@@ -154,7 +145,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"  onChange={this.handleChange} ></textarea>
+              <textarea name="message" id="message" rows="4" onChange={this.handleChange} ></textarea>
             </div>
             <ul className="actions">
               <li>
