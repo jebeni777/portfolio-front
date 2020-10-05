@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import react from '../images/react.png'
-import npm from '../images/npm.png'
+import wm from '../images/wm.png'
+import app from '../images/app.png'
 import jquery from '../images/jquery.png'
 import javascript from '../images/javascript.png'
 import nodejs from '../images/nodejs.png'
@@ -98,15 +98,15 @@ class Main extends React.Component {
           <p>
             I engineered a React.js progressive web application called <a href="https://master.djb4a0m29g84r.amplifyapp.com/">Comfort Foods</a> to provide actionable dietary information for seniors. This was done by engaging in user research to identify the best experience for the baby boomer generation. The application delivers a creative dietary plan/recommendation list for adding new ingredients to your staple dishes, based on your health needs. This was accomplished with persisted application content in a GraphQL-like database, using Sanity.io. Then deployed the application to the internet using AWS Cloudfront and Amplify.
           </p>
+          <span>
+            <img src={app} alt="" />
+          </span>
           <p>
-            Here is an ecommerce site for created for <a href="https://woollymammothshoes.com/">Wooly Mammoth Shoes</a>.
+            Here is an ecommerce site created for <a href="https://woollymammothshoes.com/">Wooly Mammoth Shoes</a>.
           </p>
           {close}
           <span>
-            <img src={react} alt="" />
-            <img src={npm} alt="" />
-            <img src={javascript} alt="" />
-
+            <img src={wm} alt="" />
           </span>
         </article>
 
