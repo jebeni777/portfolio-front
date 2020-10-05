@@ -101,6 +101,7 @@ class Main extends React.Component {
           <span>
             <img src={app} alt="" style={{ maxWidth: "80%", maxHeight: "80%" }} />
           </span>
+          <br />
           <p>
             Here is an ecommerce site created for <a href="https://woollymammothshoes.com/">Wooly Mammoth Shoes</a>.
           </p>
